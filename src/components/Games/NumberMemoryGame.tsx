@@ -88,7 +88,7 @@ const NumberMemoryGame = () => {
   return (
     <div className='w-full grid grid-cols-5 gap-2 mt-12'>
       <Scoreboard scores={latestScores} gameType={Games.NumberMemory} />
-      <div className='flex col-span-3 col-start-2 min-h-100 w-full items-start'>
+      <div className='flex order-1 flex-col xl:flex-row xl:col-span-3 xl:col-start-2 col-span-5 col-start-1 min-h-100 w-full items-start'>
         <div className='flex flex-col justify-center items-center px-10 w-full'>
           <p className='w-full text-5xl font-semibold text-start pt-1'>
             Number Memory

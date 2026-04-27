@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import type { GameElement } from '../util/interfaces/interfaces';
 import { useContext } from 'react';
 import { GamesContext } from '../util/GamesContext';
+import { Search } from 'lucide-react';
 
 function Navbar(){
     const navigate = useNavigate();
@@ -31,8 +32,9 @@ function Navbar(){
                     </div>)
                 })}
             </div>
-            <div className="flex items-center mr-3">
-                <input type="text" placeholder="Search..." className="w-20 h-10 pl-2 pr-2 bg-dark-gray rounded-xl min-w-100"/>
+            <div className="items-center mr-3">
+                <input type="text" placeholder="Search..." className="xl:flex hidden w-20 h-10 pl-2 pr-2 bg-dark-gray rounded-xl min-w-100"/>
+                <button className='cursor-pointer px-2 py-2 xl:hidden block'><Search/></button>
             </div>
         </div>
     </>)

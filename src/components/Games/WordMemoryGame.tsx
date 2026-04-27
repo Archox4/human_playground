@@ -84,7 +84,7 @@ export const WordMemoryGame = () => {
   return (
     <div className='w-full grid grid-cols-5 gap-2 mt-12'>
       <Scoreboard scores={latestScores} gameType={Games.WordMemory} />
-      <div className='flex col-span-3 col-start-2 justify-center min-h-100 w-full items-start'>
+      <div className='flex order-1 flex-col xl:flex-row xl:col-span-3 xl:col-start-2 col-span-5 col-start-1 justify-center min-h-100 w-[90%] items-start'>
         <div className='flex flex-col justify-center items-center px-10 w-full'>
           <p className='w-full text-5xl font-semibold text-start pt-1'>
             Words Memory
@@ -148,7 +148,7 @@ export const WordMemoryGame = () => {
                   transition={{ duration: 0.2 }}
                   whileFocus={{ scale: 0.95 }}
                   initial={{ background: 'transparent' }}
-                  className='border-cyan-main border px-30 py-5 rounded-2xl shadow-md shadow-gray-900
+                  className='border-cyan-main border xl:px-30 xl:py-5 px-20 py-5 rounded-2xl shadow-md shadow-gray-900
                                 cursor-pointer'
                   onClick={handleOptionSeen}
                 >
@@ -163,7 +163,7 @@ export const WordMemoryGame = () => {
                   transition={{ duration: 0.2 }}
                   whileFocus={{ scale: 0.95 }}
                   initial={{ background: 'transparent' }}
-                  className='border-cyan-main border px-30 py-5 rounded-2xl shadow-md shadow-gray-900
+                  className='border-cyan-main border xl:px-30 xl:py-5 px-20 py-5 rounded-2xl shadow-md shadow-gray-900
                                 cursor-pointer'
                   onClick={handleOptionNew}
                 >

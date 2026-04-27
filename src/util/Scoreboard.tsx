@@ -10,7 +10,7 @@ const Scoreboard = ({
   gameType: Games
 }) => {
   return (
-    <div className='w-2/3 h-fit max-h-160 flex flex-col justify-center ms-5 p-2 rounded-lg bg-linear-to-bl from-dark-gray-1 to-gray-900 shadow-2xl shadow-black'>
+    <div className='xl:w-2/3 mt-10 xl:col-span-1 md:col-start-2 md:w-2/3 w-full px-5 col-start-1 col-span-5  xl:order-1 order-2 h-fit max-h-160 flex flex-col justify-center xl:ms-5 p-2 rounded-lg bg-linear-to-bl from-dark-gray-1 to-gray-900 shadow-2xl shadow-black'>
       <h2 className='pb-2'>LAST SCORES</h2>
       {scores.length > 0 ? (
         <ul className='space-y-2 w-full overflow-hidden hover:overflow-y-auto [scrollbar-gutter:stable]'>

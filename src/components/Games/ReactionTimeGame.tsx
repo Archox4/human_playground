@@ -62,7 +62,7 @@ const ReactionTimeGame = () => {
   return (
     <div className='w-full grid grid-cols-5 gap-2 mt-12'>
       <Scoreboard scores={latestScores} gameType={Games.ReactionTime}/>
-      <div className='w-full col-span-3 flex flex-col items-center'>
+      <div className='w-full order-1 xl:flex-row xl:col-span-3 xl:col-start-2 col-span-5 col-start-1 flex flex-col items-center'>
         {gameState === GameStatus.IDLE && (
           <motion.div
             className='flex justify-center items-center bg-linear-to-tl from-dark-gray-1 to-gray-800 shadow-md shadow-gray-800 w-full min-h-140 rounded-2xl cursor-pointer'
