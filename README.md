@@ -1,3 +1,49 @@
+# Human Playground
 
-<img width="1918" height="940" alt="Zrzut ekranu 2026-04-27 135816" src="https://github.com/user-attachments/assets/5db15ca7-f5e4-4cb7-98bd-e556d4ca11a2" />
-<img width="1886" height="877" alt="image" src="https://github.com/user-attachments/assets/282e74a9-44ed-4798-afa5-adb1e4a4824e" />
+A React + TypeScript + Vite project for experimentation and learning.
+
+## Tech Stack
+
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Fast build tool with HMR
+- **ESLint** - Code quality
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Project Structure
+
+```
+├── src/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── ...
+├── index.html
+├── vite.config.ts
+└── tsconfig.json
+```
+
+## Features
+
+- Fast refresh with HMR
+- Type-safe development with TypeScript
+- ESLint configuration included
+- Ready for expansion
+
+---
+
+Made with ❤️ by Archox4
