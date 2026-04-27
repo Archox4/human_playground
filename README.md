@@ -1,6 +1,6 @@
 # Human Playground
 
-A React + TypeScript + Vite project for experimentation and learning. Inspired by HUman benchmark an other.
+A React + TypeScript + Vite project for experimentation and learning. Inspired by Human benchmark an other.
 
 ## Tech Stack
 
